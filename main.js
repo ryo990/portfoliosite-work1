@@ -11,7 +11,7 @@ $(function(){
   });
 });
 
-const pics_src = ["image/clothing.jpg","image/music.jpg"];
+const pics_src = ["clothing.jpg","music.jpg"];
 let num = -1;
 
 function slideshow_timer(){
