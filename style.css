@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+body{
+  background-color:silver;
+}
+
+.header{
+  text-align:center;
+  height:50px;
+}
+
+.header ul li{
+  display:inline;
+  padding:3px;
+  margin-right:90px;
+}
+
+.header ul li a{
+  color:black;
+  font-size:20px;
+  font-weight:bold;
+}
+
+.wrapper1{
+  opacity:0.7;
+}
+
+.top-image{
+ position:relative;
+}
+
+.wrapper1 img{
+  width:100%;
+  height:600px;
+}
+
+.top-ward{
+  font-family: 'Sawarabi Mincho', sans-serif;
+  color:white;
+  position:absolute;
+  top:100px;
+  left:50px;
+}
+
+.top-ward h1{
+  font-size:50px;
+}
+
+.top-ward-sneaker{
+  color:navy;
+}
+
+.top-ward-music{
+  color:teal;
+}
+
+.top-ward-cafe{
+  color:maroon;
+}
+
+#wrapper2{
+  display:flex;
+  background-color:#EEEEEE;
+  border:solid 2px grey;
+  font-family:'Playfair Display', serif;
+  height:300px;
+  margin-top:50px;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.animation{
+  opacity:0;
+  visibility:hidden;
+  transition:3s;
+  transform:translateY(30px);
+}
+
+.active{
+  opacity:1;
+  visibility:visible;
+  transform:translateY(0);
+}
+
+.about-ward{
+  width:50%;
+  text-align:center;
+}
+
+.about-ward h1{
+  border-bottom:solid 1px black;
+  font-size:40px;
+  display:inline;
+}
+
+.about-image{
+  width:50%;
+  text-align:center;
+}
+
+.about-image img{
+  height:300px;
+  width:80%;
+}
+
+#wrapper3{
+  display:flex;
+  background-color:#EEEEEE;
+  border:solid 2px grey;
+  font-family:'Playfair Display', serif;
+  height:300px;
+  margin-top:50px;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.sneaker-image{
+  width:50%;
+  text-align:center;
+}
+
+.sneaker-image img{
+  height:300px;
+  width:80%;
+}
+
+.sneaker-ward{
+  width:50%;
+  text-align:center;
+}
+
+.sneaker-ward h1{
+  color:navy;
+  border-bottom:solid 1px black;
+  font-size:40px;
+  display:inline;
+}
+
+#wrapper4{
+  display:flex;
+  background-color:#EEEEEE;
+  border:solid 2px grey;
+  font-family:'Playfair Display', serif;
+  height:300px;
+  margin-top:50px;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.music-ward{
+  width:50%;
+  text-align:center;
+}
+
+.music-ward h1{
+  color:teal;
+  border-bottom:solid 1px black;
+  font-size:40px;
+  display:inline;
+}
+
+.music-image{
+  width:50%;
+  text-align:center;
+}
+
+.music-image img{
+  height:300px;
+  width:80%;
+}
+
+#wrapper5{
+  display:flex;
+  background-color:#EEEEEE;
+  border:solid 2px grey;
+  font-family:'Playfair Display', serif;
+  height:300px;
+  margin-top:50px;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.cafe-image{
+  width:50%;
+  text-align:center;
+}
+
+.cafe-image img{
+  height:300px;
+  width:80%;
+}
+
+.cafe-ward{
+  width:50%;
+  text-align:center;
+}
+
+.cafe-ward h1{
+  color:maroon;
+  border-bottom:solid 1px black;
+  font-size:40px;
+  display:inline;
+}
+
+#wrapper6{
+  text-align:center;
+  background-color:#EEEEEE;
+  border:solid 2px grey;
+  font-family:'Playfair Display', serif;
+  height:500px;
+  margin-top:50px;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+textarea{
+  resize:none;
+  width:50%;
+  height:150px;
+}
+
+.submit{
+  margin-top:20px;
+  height:30px;
+  width:80px;
+}
+
+.submit:hover{
+  background-color:grey;
+  cursor:pointer;
+}
+
+footer{
+  text-align:center;
+}
